@@ -1,0 +1,125 @@
+/* montserrat-regular - latin_cyrillic */
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/montserrat-v18-latin_cyrillic-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/montserrat-v18-latin_cyrillic-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-500 - latin_cyrillic */
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../fonts/montserrat-v18-latin_cyrillic-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/montserrat-v18-latin_cyrillic-500.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* oswald-500 - latin_cyrillic */
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../fonts/oswald-v40-latin_cyrillic-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/oswald-v40-latin_cyrillic-500.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* common */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+    color: #060d10;
+}
+
+.container {
+    width: 1278px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* header */
+
+.header {
+    padding: 31px 0;
+    background-color: #66d1ff;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-btn {
+    min-width: 276px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #060d10;
+}
+
+.header-phone {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #060d10;
+}
+
+.header-phone:hover {
+    text-decoration: underline;
+}
+
+.services {
+    text-align: center;
+    padding: 240px 0 260px 0;
+    background-image: url(../images/promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.services-title {
+    font-size: 60px;
+    line-height: 89px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #060d10;
+}
+
+.services-text {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #060d10;
+    padding: 0 190px;
+}
