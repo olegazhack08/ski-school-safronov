@@ -49,7 +49,6 @@ body {
 .container {
     width: 1278px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 
@@ -189,4 +188,60 @@ body {
 .pictures {
     padding-top: 142px;
     padding-left: 22px;
+}
+
+.footer {
+    padding: 35px 0;
+    background-color: #060d10;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 167%;
+    color: #fff;
+}
+
+.copyright-end {
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.social-item {
+    margin-left: 20px;
+}
+
+.social-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.social-text {
+    font-size: 1px;
+    opacity: 0;
 }
